@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Pet Shop</title>
+  </head>
+  <body>
+
+
+      <ul class="fixed-top nav justify-content-center clr ">
+          <li class="nav-item">
+              <a class="nav-link active clr" href="index.html">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link clr" href="#section1">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link clr" href="#section2">İletişim</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link clr" href="#section3">Temin Et</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link clr" href="#section4">Bağış</a>
+          </li>
+      </ul>
+
+      
+      <div class="renk">
+          <div class="container ortala">
+              <div class="row">
+                  <div class="col-sm prgrf">
+                      <h1 class="display-1">FREE PET-SHOP </h1>
+                      <p class="lead">Kendini geliştirmekte olan ve profesyonel çalışma ilkelerini benimseyen bir kurum olarak hergün onlarca canı kurtarmak için sürekli çalışıyoruz. Bu faaliyetlerin tamamı sizin gibi değerli bağışçılarımızın katkıları ile sağlanıyor. </p>
+                      <p class="lead"></p>
+
+                      <button class="btn btn-light">Detaylı bilgi</button>
+                  </div>
+                  <div class="col-sm">
+                      <img src="img/banner.png" class="img float-right " alt="">
+                  </div>
+              </div>
+          </div>
+         
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc107" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,202.7C384,203,480,149,576,144C672,139,768,181,864,197.3C960,213,1056,203,1152,208C1248,213,1344,235,1392,245.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+      <!--bağış baslangic-->
+      <div id="section4"></div>
+      <div class="container ortala">
+          <div class="display-2">Bir Bağış da Sen Yap!</div>
+      </div>
+      <div class="container ortala hiz">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+                      <img src="img/card.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mama-Yem-Su Bağışı</h5>
+                          <p class="card-text">Sokakta yaşayan kedi, köpek, tavşan, kuş vb. tüm canlar için sen de bir mama bağışında bulunabilirsin. Bunun için tek yapman gereken şey Bağış Yap! butonuna basarak mama-su desteğinde bulunmak...</p>
+                          <a href="#" class="btn btn-warning">Bağış Yap!</a>
+                          <a href="#" class="btn btn-warning">Temin Et!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+                      <img src="img/card.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Ev-Kulübe Bağışı</h5>
+                          <p class="card-text">Sokakta yaşayan tüm canlar için kış aylarında sıcak bir yuva, yaz aylarında soluklanacak bir gölge inşa edebilirsin. Bunun için tek yapman gereken şey Bağış Yap! butonuna basarak bir kulübe desteğinde bulunmak...</p>
+                          <a href="#" class="btn btn-warning">Bağış Yap!</a>
+                          <a href="#" class="btn btn-warning">Temin Et!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem;">
+                      <img src="img/card.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Tedavi için İlaç Bağışı</h5>
+                          <p class="card-text">Sokakta yaşayan, tedaviye ihtiyaç duyan tüm canlar için sen de bir bağış yaparak onlara destek olabilirsin. Bunun için tek yapman gereken tek şey Bağış Yap! butonuna basarak bir ilaç desteğinde bulunmak...  </p>
+                          <a href="#" class="btn btn-warning">Bağış Yap!</a>
+                          <a href="#" class="btn btn-warning">Temin Et!</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container ortala hiz">
+        <div class="row">
+            <div class="col">
+                <div class="display-2">Temin Et</div>
+      <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">İsim Soyisim</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="İsim-Soyisim giriniz">
+            <small id="emailHelp" class="form-text text-muted">Adınız ve Soyadınız hiçbir kuruluş ile paylaşılmamaktadır.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email adresiniz</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Bir e-mail giriniz">
+            <small id="emailHelp" class="form-text text-muted">Email'iniz hiçbir kuruluş ile paylaşılmamaktadır.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">İhtiyaç Duyulan Ürün</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Bir ürün giriniz">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1"><p class="form-text text-muted">Okudum,Onayladım</p>
+        </div>
+        <button type="submit" class="btn btn-warning">Talep Et</button>
+    </form>
+            </div>
+            <div class="col">
+                <div class="display-2">Bağış Yap</div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">İsim Soyisim</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="İsim Soyisim giriniz">
+                        <small id="emailHelp" class="form-text text-muted">Adınız ve Soyadınız hiçbir kuruluş ile paylaşılmamaktadır.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email adresiniz</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Bir e-mail giriniz">
+                        <small id="emailHelp" class="form-text text-muted">Email'iniz hiçbir kuruluş ile paylaşılmamaktadır.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Bağış Miktarı</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Bağış Miktarınızı giriniz ₺">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><p class="form-text text-muted">Okudum,Onayladım</p>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Bağış Yap</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--bağış bitis-->
+    <!--hakkimizda baslangic-->
+      <div id="section1"></div>
+      <div class="renk1 hiz">
+          <div class="container ortala">
+              <div class="row">
+                  <div class="col-sm hOrt">
+                      <h1 class="display-1">BİZ KİMİZ?</h1>
+                      <p class="lead">Biz FREE PET-SHOP olarak sokakta yardıma ihtiyaç duyan tüm canlar için bir köprüyüz. Siz değerli bağışçılarımız sayesinde tüm canlara ihtiyaç duyduğu her şeyi temin ediyor olacağız... </p>
+                  </div>
+                  <div class="col-sm">
+                      <img src="img/banner2.png" class="img1 float-right" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--hakkimizda bitiş-->
+      <div id="section2"></div>
+      <div class="renk2 hiz">
+          <div class="container ortala">
+              <div class="row">
+                  <div class="col-sm">
+                      <img src="img/banner3.png" class="img1 float-right" alt="">
+                  </div>
+                  <div class="col-sm  hOrt">
+                      <h1 class="display-1">BİZE ULAŞIN</h1>
+                      <p class="lead">Siz değerli bağışçılarımızın merak ettiği her şey için 7/24 bize ulaşabilirsiniz. </p>
+                      <p class="lead">Tel:0530 ### ## ##</p>
+                      <p class="lead">freepet-shop@gmail.com</p>
+                      <p class="lead">EDİRNE/Merkez</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="section3"></div>
+      <div class="renk1 hiz">
+          <div class="container ortala">
+              <div class="row">
+                  <div class="col-sm hOrt">
+                      <h1 class="display-1">TEMİN EDİN</h1>
+                      <p class="lead">Sokak hayvanları için ihtiyaç duyduğun her şeyi(mama, yem, su, kulübe, ilaç...) bizlerden ücretsiz bir şekilde temin edebilirsin. Tek yapman gereken şey bize ulaşmak... </p>
+                  </div>
+                  <div class="col-sm">
+                      <img src="img/banner4.png" class="img1 float-right" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+          <!--footer baslangic-->
+          <footer class="bg-light text-center text-lg-start">
+              <div class="text-center p-3 renk">
+                  © 2021 Copyright:
+                  <a class="text-dark">Free Pet-Shop.com</a>
+              </div>
+          </footer>
+          <!--footer bitiş-->
+          <div id="button"></div>
+          <!-- Optional JavaScript; choose one of the two! -->
+          <!-- Option 1: Bootstrap Bundle with Popper -->
+          <script src="js/scroll.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

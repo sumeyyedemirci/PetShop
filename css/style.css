@@ -1,0 +1,68 @@
+.img{
+    width: 600px;
+    height: 600px;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.cardimg{
+    width: 100px;
+    height: 100px;
+}
+.prgrf{
+    padding-top: 130px;
+}
+.ortala{
+    padding-left: 100px !important;
+    padding-top: 50px;
+}
+.hOrt{
+    padding-top: 75px;
+}
+.hiz{
+    padding-bottom: 50px;
+}
+.renk{
+    background-color: #ffc107;
+}
+.renk1{
+    background-color: #faeacb;
+}
+.renk2{
+    background-color: white;
+}
+.clr{
+    background-color: #ffc107;
+    color:white !important;
+    position: sticky;
+}
+.clr a:hover{
+    
+    color: chocolate;
+    transition: 0.5s;
+}
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: white;
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffbf00;
+    
+   }
+   .dnmm{
+       background-color: hotpink;
+       width: 100px;
+       height: 100px;
+   }
+   .dnmm:hover{
+        width: 200px;
+        transition: 0.5s;
+   }
